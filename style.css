@@ -4,7 +4,7 @@ body{
 	font-weight: 400;
 	font-size: 14px;
 }
-/*! conteyner designda 940 uzunlykda reset.css border box bolany ucun we pading 15px sag cep jemi 30 bolyar => 940+30=970  */
+/*! conteyner designda 940 uzunlykda we reset.css border box bolany ucun we pading 15px sag cep jemi 30 bolyar => 940+30=970  */
 .container{
 	
 	max-width: 970px;
@@ -16,4 +16,27 @@ body{
 	color: #6A859C;
 	line-height: 1.8;
 
+}
+
+.header {
+}
+.container {
+}
+.logo {
+font-size: 25px;
+/* 25/25=1 lineheight bar designda */
+letter-spacing: 4px;
+text-transform: uppercase;
+color: #69B9FF;
+}
+.header__nav {
+}
+
+.header__nav a {
+	font-size: 16px;
+	color: #676770;
+	transition: color 0.2s;
+}
+.header__nav a:hover {
+color: #0082f3;
 }
